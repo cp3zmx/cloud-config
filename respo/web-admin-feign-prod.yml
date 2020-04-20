@@ -9,7 +9,7 @@ spring:
       content-type: text/html
 
 server:
-  port: 8088
+  port: 8098
 
 ##  开启熔断器  在feign中Hystrix熔断是默认关闭的
 feign:
