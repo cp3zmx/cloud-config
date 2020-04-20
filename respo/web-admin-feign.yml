@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: spring-cloud-web-admin-feign
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+server:
+  port: 8088
+
+##  开启熔断器  在feign中Hystrix熔断是默认关闭的
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8084/eureka/
