@@ -16,6 +16,7 @@ feign:
   hystrix:
     enabled: true
 
+
 eureka:
   client:
     serviceUrl:
