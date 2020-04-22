@@ -7,6 +7,12 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
+  zipkin:  #服务链路追踪（被）
+    base-url: http://localhost:9411
+  boot:
+    admin:  #服务监控客户端（被）
+      client:
+        url: http://localhost:8084
 
 server:
   port: 8098  #spring-cloud-web-admin-feign生产环境端口
