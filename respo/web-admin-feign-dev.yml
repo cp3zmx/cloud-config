@@ -12,7 +12,7 @@ spring:
   boot:
     admin:  #服务监控客户端（被）
       client:
-        url: http://localhost:8084
+        url: http://localhost:8090
 server:
   port: 8088  #spring-cloud-web-admin-feign开发环境端口
 
